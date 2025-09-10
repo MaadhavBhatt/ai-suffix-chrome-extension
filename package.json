@@ -1,0 +1,31 @@
+{
+  "name": "ai-suffix-chrome-extension",
+  "version": "1.0.0",
+  "description": "Automatically adds '-ai' to your address bar searches.",
+  "keywords": [
+    "chrome",
+    "extension",
+    "browser",
+    "ai",
+    "suffix",
+    "productivity"
+  ],
+  "homepage": "https://github.com/MaadhavBhatt/ai-suffix-chrome-extension#readme",
+  "bugs": {
+    "url": "https://github.com/MaadhavBhatt/ai-suffix-chrome-extension/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaadhavBhatt/ai-suffix-chrome-extension.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "chrome-types": "^0.1.375"
+  }
+}
