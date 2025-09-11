@@ -1,7 +1,7 @@
 {
   "name": "ai-suffix-chrome-extension",
   "version": "1.0.0",
-  "description": "Automatically adds '-ai' to your address bar searches.",
+  "description": "Filters out AI overview from search results by adding '-ai' to your Google searches.",
   "keywords": [
     "chrome",
     "extension",

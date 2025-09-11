@@ -1,6 +1,6 @@
 # AI Suffix Chrome Extension
 
-Automatically adds '-ai' to your Google searches to help filter out AI-generated content from search results.
+Filters out AI overview from search results by adding '-ai' to your Google searches.
 
 ## Description
 
