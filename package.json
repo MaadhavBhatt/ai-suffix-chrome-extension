@@ -1,7 +1,7 @@
 {
   "name": "ai-suffix-chrome-extension",
   "version": "1.0.0",
-  "description": "Filters out AI overview from search results by adding '-ai' to your Google searches when you end them with a hyphen ('-').",
+  "description": "Filters out AI overview from search results by adding '-ai' to your Google searches when you end them with a hyphen ('-') or a character of your choice.",
   "keywords": [
     "chrome",
     "extension",
