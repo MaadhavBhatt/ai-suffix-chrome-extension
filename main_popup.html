@@ -4,51 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Suffix Extension</title>
-    <style>
-      :root {
-        --font-family: 'Segoe UI', sans-serif;
-        font-size: 10px;
-      }
-
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: var(--font-family);
-      }
-
-      body {
-        padding: 2rem;
-        width: 35rem;
-        min-height: 15rem;
-        background-color: #222;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1.5rem;
-      }
-
-      h1 {
-        font-size: 2.4rem;
-        font-weight: 700;
-        color: #eee;
-        text-align: center;
-      }
-
-      p {
-        font-size: 1.6rem;
-        color: #ccc;
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="main_popup.css" />
+    <script src="./main_popup.js" defer></script>
   </head>
   <body>
-    <h1>AI Suffix Extension</h1>
-    <p>
-      This extension automatically adds '-ai' to your searches when they end
-      with a hyphen ('-').
-    </p>
+    <div class="text">
+      <h1>AI Suffix Extension</h1>
+      <p>Choose a character to trigger the AI suffix</p>
+    </div>
+
+    <div class="buttons">
+      <button type="button" class="suffix-button">-</button>
+      <button type="button" class="suffix-button">/</button>
+      <button type="button" class="suffix-button">!</button>
+      <button type="button" class="suffix-button">?</button>
+    </div>
   </body>
 </html>
