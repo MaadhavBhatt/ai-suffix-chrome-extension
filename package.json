@@ -1,5 +1,5 @@
 {
-  "name": "ai-suffix-chrome-extension",
+  "name": "remove-ai-overview-chrome-extension",
   "version": "1.0.0",
   "description": "Filters out AI overview from search results by adding '-ai' to your Google searches when you end them with a hyphen ('-') or a character of your choice.",
   "keywords": [
@@ -10,13 +10,13 @@
     "suffix",
     "productivity"
   ],
-  "homepage": "https://github.com/MaadhavBhatt/ai-suffix-chrome-extension#readme",
+  "homepage": "https://github.com/MaadhavBhatt/remove-ai-overview-chrome-extension#readme",
   "bugs": {
-    "url": "https://github.com/MaadhavBhatt/ai-suffix-chrome-extension/issues"
+    "url": "https://github.com/MaadhavBhatt/remove-ai-overview-chrome-extension/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MaadhavBhatt/ai-suffix-chrome-extension.git"
+    "url": "git+https://github.com/MaadhavBhatt/remove-ai-overview-chrome-extension.git"
   },
   "license": "MIT",
   "author": "",

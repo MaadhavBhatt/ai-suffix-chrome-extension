@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "AI Suffix Extension",
+  "name": "Remove AI Overview",
   "version": "1.0.0",
   "description": "Automatically adds '-ai' to your address bar searches.",
   "permissions": [
@@ -11,7 +11,7 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "AI Suffix Extension",
+    "default_title": "Remove AI Overview",
     "default_popup": "main_popup.html"
   },
   "content_security_policy": {

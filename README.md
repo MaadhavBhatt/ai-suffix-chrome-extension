@@ -1,4 +1,4 @@
-# AI Suffix Chrome Extension
+# Remove AI Overview Chrome Extension
 
 This Chrome extension monitors your Google searches and automatically appends '-ai' to your Google searches when they end with a hyphen ('-') or another character of your choice. This excludes the AI overview section on Google.
 
