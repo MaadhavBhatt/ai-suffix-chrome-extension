@@ -1,10 +1,6 @@
 # AI Suffix Chrome Extension
 
-Filters out AI overview from search results by adding '-ai' to your Google searches when you end them with a hyphen ('-').
-
-## Description
-
-This Chrome extension monitors your Google searches and automatically appends '-ai' to your search queries when they end with a hyphen ('-'). This helps exclude the AI overview that Google provides from your search results.
+This Chrome extension monitors your Google searches and automatically appends '-ai' to your Google searches when they end with a hyphen ('-') or another character of your choice. This excludes the AI overview section on Google.
 
 ## Installation
 
@@ -17,18 +13,13 @@ This Chrome extension monitors your Google searches and automatically appends '-
 5. Select the folder containing this extension (the folder with `manifest.json`)
 6. The extension will be installed and active immediately
 
-## How it Works
-
-- The extension monitors your Google searches
-- When you search on Google, it automatically adds '-ai' to your search query
-- This helps filter out the AI overview from your results
-- Works seamlessly in the background - no user interaction required
-
 ## Files
 
 - `manifest.json` - Extension configuration
 - `background.js` - Main functionality script
 - `main_popup.html` - The popup interface that appears when clicking the extension icon
+- `main_popup.js` - JavaScript for the popup interface
+- `main_popup.css` - CSS for styling the popup interface
 - `README.md` - This documentation
 
 ## License
